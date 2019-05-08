@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let todo of todo$ | async">
+      <input type="checkbox" [(ngModel)]="todo.completed"> {{todo.name}}
+    <!-- <input type="checkbox" [(ngModel)]="todo.bet.bet"> {{todo.bet|json}} -->
+    <!-- {{todo.user_id}} 
+    <h1>{{todo.bet| json }}</h1> -->
+    </li>
+</ul>
